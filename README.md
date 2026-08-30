@@ -303,7 +303,7 @@ No third-party certifications are publicly listed. Current work is demonstrated 
 
 <div align="center">
 
-![Snake animation](https://raw.githubusercontent.com/Lluciocc/Lluciocc/output/github-snake-dark.svg)
+![Snake animation](https://raw.githubusercontent.com/Lluciocc/Lluciocc/gh-pages/github-snake-dark.svg)
 
 </div>
 
