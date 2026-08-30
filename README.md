@@ -15,7 +15,7 @@
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Lluciocc&style=flat-square&color=7C3AED&label=PROFILE+VIEWS)
 [![Followers](https://img.shields.io/github/followers/Lluciocc?style=flat-square&color=6366F1&labelColor=1E1B4B&logo=github)](https://github.com/Lluciocc?tab=followers)
-[![Vish Stars](https://img.shields.io/github/stars/Lluciocc/vish?style=flat-square&color=A78BFA&labelColor=1E1B4B&logo=github&label=VISH+STARS)](https://github.com/Lluciocc/groovia/stargazers)
+[![Vish Stars](https://img.shields.io/github/stars/Lluciocc/vish?style=flat-square&color=A78BFA&labelColor=1E1B4B&logo=github&label=VISH+STARS)](https://github.com/Lluciocc/vish/stargazers)
 
 </div>
 
@@ -303,7 +303,7 @@ No third-party certifications are publicly listed. Current work is demonstrated 
 
 <div align="center">
 
-![Contribution Snake](https://raw.githubusercontent.com/Lluciocc/Lluciocc/output/github-contribution-grid-snake-dark.svg)
+![Snake animation](https://raw.githubusercontent.com/Lluciocc/Lluciocc/output/github-snake-dark.svg)
 
 </div>
 
