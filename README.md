@@ -9,9 +9,8 @@
 ![Location](https://img.shields.io/badge/France-Grand_Est-6366F1?style=flat-square&logo=googlemaps&logoColor=white)
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-lluciocc.fr-6D28D9?style=for-the-badge&logo=googlechrome&logoColor=white)](https://lluciocc.fr/)
-[![GitHub](https://img.shields.io/badge/GitHub-Lluciocc-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Lluciocc)
-[![Contact](https://img.shields.io/badge/Contact-Portfolio-4F46E5?style=for-the-badge&logo=gmail&logoColor=white)](https://lluciocc.fr/)
-[![Professional Profile](https://img.shields.io/badge/Professional_Profile-Connect-4338CA?style=for-the-badge&logo=linkedin&logoColor=white)](https://lluciocc.fr/)
+[![Contact](https://img.shields.io/badge/Contact-Portfolio-4F46E5?style=for-the-badge&logo=gmail&logoColor=white)](https://lluciocc.fr/?tab=contact)
+[![Professional Profile](https://img.shields.io/badge/Professional_Profile-Connect-4338CA?style=for-the-badge&logo=linkedin&logoColor=white)](https://lluciocc.fr/?tab=work)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Lluciocc&style=flat-square&color=7C3AED&label=PROFILE+VIEWS)
 [![Followers](https://img.shields.io/github/followers/Lluciocc?style=flat-square&color=6366F1&labelColor=1E1B4B&logo=github)](https://github.com/Lluciocc?tab=followers)
@@ -70,8 +69,8 @@ My AI/ML experience includes applied deep-learning exploration and an internship
 
 ## Featured Projects
 
-<details open>
-<summary><strong>Vish — Visual Bash Editor</strong></summary>
+<details >
+<summary>⭐ <strong>Vish — Visual Bash Editor</strong></summary>
 
 <br>
 
@@ -87,6 +86,26 @@ A graphical, node-based editor that makes Bash scripting more visual and approac
 | **Repository** | [github.com/Lluciocc/Vish](https://github.com/Lluciocc/Vish) |
 
 Vish brings together language tooling, visual programming, terminal integration, desktop UX, packaging, and an extensible ecosystem of themes and utilities.
+
+</details>
+
+<details>
+<summary><strong>BoredOS — Operating System Engineering</strong></summary>
+
+<br>
+
+A collaborative hobby operating system project used to explore native UI, low-level development, tooling, and operating-system architecture.
+
+| Area | Details |
+|:--|:--|
+| **Stack** | C, Assembly, cross-GCC, Limine, QEMU, native UI toolkit |
+| **Scale** | Kernel and userspace experimentation, native applications, build tooling, and a file-manager implementation |
+| **Performance** | Native compiled code, direct platform integration, and low-overhead UI components |
+| **Security** | Explicit contribution policy, documented security expectations, and review-oriented development practices |
+| **Impact** | Delivered a native file-manager experience while building practical knowledge of OS internals |
+| **Repository** | [github.com/BoredOS/BoredOS](https://github.com/BoredOS/BoredOS) |
+
+My work around BoredOS includes a native file manager, windowing and menu behavior, split views, previews, documentation, and the engineering discipline required by a shared low-level codebase.
 
 </details>
 
@@ -150,25 +169,7 @@ Connex demonstrates system integration across desktop UI, command-line tooling, 
 
 </details>
 
-<details>
-<summary><strong>BoredOS — Operating System Engineering</strong></summary>
 
-<br>
-
-A collaborative hobby operating system project used to explore native UI, low-level development, tooling, and operating-system architecture.
-
-| Area | Details |
-|:--|:--|
-| **Stack** | C, Assembly, cross-GCC, Limine, QEMU, native UI toolkit |
-| **Scale** | Kernel and userspace experimentation, native applications, build tooling, and a file-manager implementation |
-| **Performance** | Native compiled code, direct platform integration, and low-overhead UI components |
-| **Security** | Explicit contribution policy, documented security expectations, and review-oriented development practices |
-| **Impact** | Delivered a native file-manager experience while building practical knowledge of OS internals |
-| **Repository** | [github.com/Lluciocc/BoredOS](https://github.com/Lluciocc/BoredOS) |
-
-My work around BoredOS includes a native file manager, windowing and menu behavior, split views, previews, documentation, and the engineering discipline required by a shared low-level codebase.
-
-</details>
 
 ---
 
@@ -283,7 +284,7 @@ No third-party certifications are publicly listed. Current work is demonstrated 
 
 <div align="center">
 
-[![Trophies](https://github-profile-trophy.vercel.app/?username=Lluciocc&theme=discord&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+[![Trophies](https://raw.githubusercontent.com/Lluciocc/github-profile-trophy/gh-pages/trophy.svg)](https://github.com/Lluciocc/github-profile-trophy)
 
 </div>
 
@@ -293,7 +294,7 @@ No third-party certifications are publicly listed. Current work is demonstrated 
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Lluciocc&bg_color=0D1117&color=C4B5FD&line=8B5CF6&point=A78BFA&area=true&area_color=4F46E5&hide_border=true&custom_title=Lluciocc%27s%20Contribution%20Activity)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Activity Graph](https://raw.githubusercontent.com/Lluciocc/github-readme-activity-graph/gh-pages/activity-graph.svg)](https://github.com/Lluciocc/github-readme-activity-graph)
 
 </div>
 
@@ -315,8 +316,7 @@ No third-party certifications are publicly listed. Current work is demonstrated 
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-lluciocc.fr-6D28D9?style=for-the-badge&logo=googlechrome&logoColor=white)](https://lluciocc.fr/)
 [![GitHub](https://img.shields.io/badge/GitHub-Lluciocc-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Lluciocc)
-[![Email](https://img.shields.io/badge/Email-Contact_via_Portfolio-7C3AED?style=for-the-badge&logo=gmail&logoColor=white)](https://lluciocc.fr/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Professional_Contact-4F46E5?style=for-the-badge&logo=linkedin&logoColor=white)](https://lluciocc.fr/)
+[![Email](https://img.shields.io/badge/Email-Contact_via_Portfolio-7C3AED?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lucas.cialdella57@gmail.com?subject=Hi%20Lluciocc%21&body=I%27m%20coming%20from%20your%20website%2C%20are%20you%20up%20for%20a%20chat%3F)
 
 </div>
 
