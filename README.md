@@ -255,17 +255,6 @@ No third-party certifications are publicly listed. Current work is demonstrated 
 
 ---
 
-## Coding Profiles
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-Lluciocc-6D28D9?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Lluciocc)
-[![Repositories](https://img.shields.io/badge/Explore-Public_Repositories-4F46E5?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/Lluciocc?tab=repositories)
-
-</div>
-
----
-
 ## GitHub Analytics
 
 <div align="center">
