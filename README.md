@@ -305,15 +305,13 @@ No third-party certifications are publicly listed. Current work is demonstrated 
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-lluciocc.fr-6D28D9?style=for-the-badge&logo=googlechrome&logoColor=white)](https://lluciocc.fr/)
 [![GitHub](https://img.shields.io/badge/GitHub-Lluciocc-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Lluciocc)
-[![Email](https://img.shields.io/badge/Email-Contact_via_Portfolio-7C3AED?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lucas.cialdella57@gmail.com?subject=Hi%20Lluciocc%21&body=I%27m%20coming%20from%20your%20website%2C%20are%20you%20up%20for%20a%20chat%3F)
+[![Email](https://img.shields.io/badge/Email-Contact_via_Portfolio-7C3AED?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lucas.cialdella57@gmail.com?subject=Hi%20Lluciocc%21&body=I%27m%20coming%20from%20Github%2C%20are%20you%20up%20for%20a%20chat%3F)
 
 </div>
 
 ---
 
 <div align="center">
-
-*Engineering software that is useful, thoughtful, and built to last.*
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:312E81,50:6D28D9,100:7C3AED&height=130&section=footer)
 
