@@ -259,11 +259,11 @@ No third-party certifications are publicly listed. Current work is demonstrated 
 
 <div align="center">
 
-[![GitHub Stats](https://raw.githubusercontent.com/Lluciocc/Lluciocc/gh-pages/github-stats.svg)](https://github.com/stats-organization/github-readme-stats)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api?username=Lluciocc&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=8B5CF6&text_color=C4B5FD&ring_color=7C3AED)](https://github.com/anuraghazra/github-readme-stats)
 
-[![GitHub Streak](https://raw.githubusercontent.com/Lluciocc/Lluciocc/gh-pages/github-streak.svg)](https://github.com/DenverCoder1/github-readme-streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=Lluciocc&hide_border=true&background=0D1117&ring=7C3AED&fire=A78BFA&currStreakLabel=A78BFA&sideLabels=C4B5FD&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=818CF8)](https://git.io/streak-stats)
 
-[![Top Languages](https://raw.githubusercontent.com/Lluciocc/Lluciocc/gh-pages/top-languages.svg)](https://github.com/stats-organization/github-readme-stats)
+[![Top Languages](https://github-stats-extended.vercel.app/api/top-langs/?username=Lluciocc&layout=compact&langs_count=10&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=C4B5FD)](https://github.com/anuraghazra/github-readme-stats)
 
 </div>
 
