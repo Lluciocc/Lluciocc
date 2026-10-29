@@ -1,32 +1,101 @@
-name: Generate Snake
+name: Generate profile assets
 
 on:
   schedule:
     - cron: "0 0 * * *"
-
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/snake.yml"
   workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: true
 
 jobs:
   generate:
+    name: Generate and publish
     runs-on: ubuntu-latest
 
-    permissions:
-      contents: write
-
     steps:
-      - name: Generate snake
+      - name: Generate contribution snake
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          github_token: ${{ secrets.PROFILE_TOKEN }}
+          github_token: ${{ secrets.GRAPH_TOKEN }}
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      - name: Push snake to output branch
+      - name: Generate streak card
+        uses: DenverCoder1/github-readme-streak-stats@v1
+        with:
+          options: |
+            {
+              "user": "${{ github.repository_owner }}",
+              "hide_border": true,
+              "background": "0D1117",
+              "ring": "7C3AED",
+              "fire": "A78BFA",
+              "currStreakLabel": "A78BFA",
+              "sideLabels": "C4B5FD",
+              "currStreakNum": "FFFFFF",
+              "sideNums": "FFFFFF",
+              "dates": "818CF8"
+            }
+          path: dist/github-streak.svg
+          token: ${{ secrets.GRAPH_TOKEN }}
+
+      - name: Generate GitHub stats card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: |
+            {
+              "username": "${{ github.repository_owner }}",
+              "show_icons": true,
+              "include_all_commits": true,
+              "hide_border": true,
+              "bg_color": "0D1117",
+              "title_color": "A78BFA",
+              "icon_color": "8B5CF6",
+              "text_color": "C4B5FD",
+              "ring_color": "7C3AED"
+            }
+          path: dist/github-stats.svg
+          token: ${{ secrets.GRAPH_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate top languages card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: |
+            {
+              "username": "${{ github.repository_owner }}",
+              "layout": "compact",
+              "langs_count": 10,
+              "role": "OWNER,ORGANIZATION_MEMBER,COLLABORATOR",
+              "hide_border": true,
+              "bg_color": "0D1117",
+              "title_color": "A78BFA",
+              "text_color": "C4B5FD"
+            }
+          path: dist/top-languages.svg
+          token: ${{ secrets.GRAPH_TOKEN }}
+          fail_on_error: true
+
+      - name: Publish profile assets
         uses: crazy-max/ghaction-github-pages@v4
         with:
           build_dir: dist
-          branch: output
+          target_branch: gh-pages
+          jekyll: false
+          commit_message: Update profile assets
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
