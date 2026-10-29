@@ -23,6 +23,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Verify private-data token
+        env:
+          GRAPH_TOKEN: ${{ secrets.GRAPH_TOKEN }}
+        run: |
+          if [ -z "$GRAPH_TOKEN" ]; then
+            echo "::error title=Missing GRAPH_TOKEN::Add the GRAPH_TOKEN repository secret before generating private-aware profile assets."
+            exit 1
+          fi
+
       - name: Generate contribution snake
         uses: Platane/snk@v3
         with:
