@@ -41,6 +41,9 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
+      - name: Restore output permissions
+        run: sudo chown -R "$(id -u):$(id -g)" dist
+
       - name: Generate streak card
         uses: DenverCoder1/github-readme-streak-stats@v1
         with:
